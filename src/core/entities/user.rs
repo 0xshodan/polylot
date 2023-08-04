@@ -1,4 +1,4 @@
-use super::super::module::Module;
+use super::module::Module;
 use chrono::{DateTime, Utc};
 
 pub struct User {

@@ -1,4 +1,4 @@
-use super::super::definition::Definition;
+use super::definition::Definition;
 use anyhow::{bail, Result};
 use chrono::{DateTime, Utc};
 
