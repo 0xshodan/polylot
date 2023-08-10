@@ -1,4 +1,2 @@
 /target
 .env
-Cargo.lock
-.vscode
