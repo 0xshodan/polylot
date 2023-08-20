@@ -2,5 +2,6 @@
   "rust-analyzer.linkedProjects": [
     "core/Cargo.toml",
     "infrastructure/database/migration/Cargo.toml",
+    "infrastructure/service/Cargo.toml",
   ]
 }

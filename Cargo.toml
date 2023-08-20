@@ -8,5 +8,5 @@ edition = "2021"
 members = [
     "core",
     "infrastructure/database/migration",
-    # "infrastructure/service",
+    "infrastructure/service",
 ]
