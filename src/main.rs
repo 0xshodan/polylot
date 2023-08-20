@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    polylot_api::main();
 }

@@ -1,0 +1,7 @@
+FROM rust
+
+RUN cargo install cargo-watch
+
+WORKDIR /polylot
+
+CMD [ "cargo", "watch", "-x", "run"]

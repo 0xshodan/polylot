@@ -8,5 +8,9 @@ edition = "2021"
 members = [
     "core",
     "infrastructure/database/migration",
-    "infrastructure/service",
+    "infrastructure/database/repository",
+    "infrastructure/api",
 ]
+
+[dependencies]
+polylot_api = { version = "0.1.0", path = "infrastructure/api" }

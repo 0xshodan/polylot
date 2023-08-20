@@ -1,0 +1,13 @@
+[package]
+name = "polylot_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+axum = "0.6.20"
+migration = { version = "0.1.0", path = "../database/migration" }
+repository = { version = "0.1.0", path = "../database/repository" }
+serde = "1.0.183"
+serde_json = "1.0.105"
+tokio = { version = "1.32.0", features = ["full"] }
