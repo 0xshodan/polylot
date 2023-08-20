@@ -1,6 +1,11 @@
 {
-    "rust-analyzer.linkedProjects": [
-        "./core/Cargo.toml",
-        "./core/Cargo.toml"
-    ]
+  "rust-analyzer.linkedProjects": [
+    "./core/Cargo.toml",
+    "./core/Cargo.toml",
+    "./infrastructure/migration/Cargo.toml",
+    "./infrastructure/database/migration/Cargo.toml",
+    "./infrastructure/database/migration/Cargo.toml",
+    "./infrastructure/database/migration/Cargo.toml",
+    "./infrastructure/database/migration/Cargo.toml"
+  ]
 }
